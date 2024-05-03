@@ -1,0 +1,13 @@
+torch
+torchaudio
+librosa
+transformers
+datasets
+soundfile
+aksharamukha
+flask
+flask-pymongo
+moviepy
+sentencepiece
+protobuf
+omegaconf

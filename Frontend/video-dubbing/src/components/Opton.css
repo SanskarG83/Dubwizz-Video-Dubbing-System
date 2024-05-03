@@ -1,0 +1,87 @@
+/* Option.css */
+
+/* Style for the main card */
+.boxStyle {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Style for the play button image */
+  .boxStyle img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for the card text */
+  .cardText {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Style for the language selection dropdown */
+  select {
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Style for the "Download" button */
+  .buttonStyle {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    outline: none;
+  }
+  
+  /* Style for the drawer */
+  .drawer {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  /* Style for the "Close Drawer" button */
+  .closeButton {
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    outline: none;
+  }
+  
+  /* Style for the "Download Audio" button */
+  .downloadButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    outline: none;
+  }
+  

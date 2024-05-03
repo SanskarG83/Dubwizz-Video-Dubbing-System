@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.buttonStyle {
+  border-radius: 9px;
+  background: var(--BUTTON, #807bf3);
+  width: 302px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.boxStyle {
+     
+  border-radius: 10px;
+  border: 2px solid var(--BOX-STROKE, rgba(199, 195, 195, 0.5));
+  margin-bottom: 7%;
+
+  /* BOX STYLE */
+  box-shadow: 10px 10px 4px 0px #d0ccff, 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    10px 10px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.cardText{
+     display: flex;
+width: 279px;
+height: 39px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #000;
+font-size: 24px;
+font-style: normal;
+
+}
+
+.landingHeading{
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  
+  line-height: normal;
+}
+
+.myFont{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
